@@ -6,10 +6,6 @@ class Engineer extends Employee {
         this.github = github;
     }
 
-    engineerGithub(){
-        return this.github;
-    }
-
     newEmployeeCard(){
         return `<div class="card" style="width: 15rem">
         <div class="card-header bg-primary text-light">

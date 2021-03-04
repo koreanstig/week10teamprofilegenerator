@@ -6,10 +6,6 @@ class Intern extends Employee {
         this.school = school;
     }
 
-    internSchool(){
-        return this.school;
-    }
-
     newEmployeeCard(){
         return `<div class="card" style="width: 15rem">
         <div class="card-header bg-primary text-light">
