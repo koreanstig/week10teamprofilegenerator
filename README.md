@@ -34,5 +34,5 @@ My email: jungdavidlee@gmail.com<br />
 ## Sample
 
 ## Walkthrough
-Link to full video - 
+Link to full video - https://drive.google.com/file/d/1KMqhosAAOdoNlGgFrIjZb7Vsmi3IjmLm/view
 
