@@ -1,9 +1,9 @@
 // initialized my npm's and linked my other files
 const fs = require('fs');
 const inquirer = require('inquirer');
-const Engineer = require('./team/engineer');
-const Intern = require('./team/intern');
-const Manager = require('./team/manager');
+const Engineer = require('./lib/engineer');
+const Intern = require('./lib/intern');
+const Manager = require('./lib/manager');
 
 let employeeID = 000;
 let employeeArray = [];
@@ -162,7 +162,7 @@ function createPage() {
 </body>
 
 </html>`;
-    fs.writeFile("index.html", newHTML, (err)=> {
+    fs.writeFile("./dist/index.html", newHTML, (err)=> {
         if (err) {
             throw err;
         }
