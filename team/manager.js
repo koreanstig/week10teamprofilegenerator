@@ -6,6 +6,10 @@ class Manager extends Employee {
         this.officeNumber = officeNumber;
     }
 
+    getRole(){
+        return "Manager";
+    }
+
     newEmployeeCard(){
         return `<div class="card">
         <div class="card-header bg-primary text-light">

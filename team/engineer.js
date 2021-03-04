@@ -6,6 +6,14 @@ class Engineer extends Employee {
         this.github = github;
     }
 
+    getGithub(){
+        return this.github;
+    }
+
+    getRole(){
+        return "Engineer";
+    }
+
     newEmployeeCard(){
         return `<div class="card">
         <div class="card-header bg-primary text-light">
