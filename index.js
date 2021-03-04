@@ -155,7 +155,7 @@ function createPage() {
     </div>
 
     <div class="container" style="padding-top: 5rem;">
-        <div class="card-deck justify-content-center">
+        <div class="card-columns justify-content-center">
             ${employeeCards}
         </div>
     </div>

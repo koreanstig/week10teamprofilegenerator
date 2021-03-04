@@ -7,7 +7,7 @@ class Intern extends Employee {
     }
 
     newEmployeeCard(){
-        return `<div class="card" style="width: 15rem">
+        return `<div class="card">
         <div class="card-header bg-primary text-light">
             <h2>${this.name}</h2>
             <h4>Intern</h4>
