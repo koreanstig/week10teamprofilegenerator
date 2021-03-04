@@ -1,0 +1,21 @@
+{
+  "name": "week10teamprofilegenerator",
+  "version": "1.0.0",
+  "description": "This app will take in info about employees then generate an HTML webpage that displays summaries for each person. There will also be tests to make the code maintainable",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "watch": "nodemon index",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koreanstig/week10teamprofilegenerator.git"
+  },
+  "author": "Jung (David)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koreanstig/week10teamprofilegenerator/issues"
+  },
+  "homepage": "https://github.com/koreanstig/week10teamprofilegenerator#readme"
+}
