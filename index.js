@@ -5,7 +5,7 @@ const Engineer = require('./lib/engineer');
 const Intern = require('./lib/intern');
 const Manager = require('./lib/manager');
 
-let employeeID = 000;
+let employeeID = 001;
 let employeeArray = [];
 
 // started by creating the prompts needed via the inquirer npm
@@ -33,7 +33,7 @@ function managerPrompt(){
         let managerEmail = res.managerEmail;
         let officeNumber = res.officeNumber;
         // creating new operator
-        let manager = new Manager (managerName, managerEmail, officeNumber, employeeID);
+        let manager = new Manager (managerName, employeeID, managerEmail, officeNumber);
         // +1 for employee id
         employeeID++;
         // pushing the manager info into an empty array where all employees will go
